@@ -3,6 +3,9 @@ import HomeView from '../views/HomeView.vue'
 import PageA from '@/components/pages/PageA'
 import PageUser from '@/components/pages/PageUser'
 
+// 這行只是更新github測試用的註解 沒有實質意義
+
+
 const routes = [
   {
     path: '/',
@@ -32,9 +35,4 @@ const routes = [
   }
 ]
 
-const router = createRouter({
-  history: createWebHashHistory(process.env.BASE_URL),
-  routes
-})
 
-export default router
